@@ -25,9 +25,11 @@ class App extends React.Component {
     }
     
     render() {
+        const tasks = this.state.data.length
         return (
             <div className={style.TodoApp}>
                 <Title/>
+                <h2>Liczba zadań: {this.state.data.length}</h2> 
             </div>
         );
     }
