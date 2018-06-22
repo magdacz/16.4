@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Title = () => <h1>TO DO</h1>
+const Title = props => <h1>TO DO {props.title}</h1>
 
 export default Title;
